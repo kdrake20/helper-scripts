@@ -11,7 +11,7 @@ fi
 echo "Which release is the enterprise branch for?"
 read RELEASE
 
-echo "What JIRA ticket or BZ corresponds to this branch? (e.g., BMPLATFORM-34):"
+echo "What JIRA ticket or BZ corresponds to this branch? (e.g., HCIDOCS-20):"
 read JIRA_TICKET
 
 git stash

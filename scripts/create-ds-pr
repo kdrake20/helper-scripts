@@ -17,7 +17,7 @@ if [ $CURRENT_BRANCH == "main" ]; then
   exit
 fi
 
-echo "Enter the JIRA ticket (e.g., OSDOCS-1234) [Enter]: "
+echo "Enter the JIRA ticket (e.g., HCIDOCS-20) [Enter]: "
 read JIRA_TICKET
 
 #To create a tocken, go to https://issues.redhat.com/secure/ViewProfile.jspa,
